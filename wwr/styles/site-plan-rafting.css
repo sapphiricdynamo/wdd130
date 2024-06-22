@@ -1,1 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
+:root {
+  --primary-color: #0000ff;
+  --secondary-color: white;
+  --accent1-color: black;
+  --accent2-color: magenta;
+
+  --heading-font: "Playwrite NG Modern", serif;
+  --paragraph-font: "Playwrite NG Modern", serif;
+
+  --nav-background-color: black;
+  --nav-link-color: red;
+  --nav-hover-link-color: red;
+  --nav-hover-background-color: black;
+}    
+
+body {
+
+  max-width: 960px;
+  padding: 20px;
+  font-family: "Playwrite NG Modern", cursive;
+  font-optical-sizing: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+header {
+  padding: 20px;
+  background-color: var(--accent1-color);
+}
+p {
+  padding: 25px;
+}
+nav {
+  background-color: var(--nav-background-color);
+  font-size: 1.2rem;
+  display: flex;
+}
+nav a {
+  display: block;
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 1rem;
+}
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}

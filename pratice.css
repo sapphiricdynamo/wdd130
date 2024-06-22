@@ -1,5 +1,5 @@
 body{
-    background-color: yellow;
+    background-color: rgb(255, 255, 11);
 }
 .container{
     color: black;
@@ -12,7 +12,11 @@ body{
     border: 2px solid tomato;
 }
 .container{
-    color: white;
-    padding: 150px;
-    border: 2px solid
+    color: black;
+    padding: 50px;
+    border: 2px solid blue
+}
+.container-child-2{
+    padding: 100px;
+    border: 2px solid white;
 }

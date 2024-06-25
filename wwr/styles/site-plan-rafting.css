@@ -20,7 +20,6 @@ body {
   max-width: 960px;
   padding: 20px;
   font-family: var(--paragraph-font) ;
-  font-optical-sizing: auto;
 }
 
 h1, h2, h3, h4, h5, h6 {

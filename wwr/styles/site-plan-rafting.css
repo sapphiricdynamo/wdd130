@@ -1,25 +1,25 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
 :root {
-  --primary-color: #0000ff;
-  --secondary-color: white;
-  --accent1-color: black;
-  --accent2-color: magenta;
+  --primary-color: #396E94;
+  --secondary-color: #E7C24F;
+  --accent1-color: #A43312;
+  --accent2-color: #381D2A;
 
   --heading-font: "Playwrite NG Modern", serif;
-  --paragraph-font: "Playwrite NG Modern", serif;
+  --paragraph-font: "Playwrite NG Modern", cursive, serif;
 
-  --nav-background-color: black;
-  --nav-link-color: red;
-  --nav-hover-link-color: red;
-  --nav-hover-background-color: black;
+  --nav-background-color: #396e94;
+  --nav-link-color: #A4a4a4;
+  --nav-hover-link-color: #383838;
+  --nav-hover-background-color: #E7C24F;
 }    
 
 body {
 
   max-width: 960px;
   padding: 20px;
-  font-family: "Playwrite NG Modern", cursive;
+  font-family: var(--paragraph-font) ;
   font-optical-sizing: auto;
 }
 

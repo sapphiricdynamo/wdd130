@@ -1,13 +1,17 @@
-main {  
+
 * {
   margin: 0;
   padding: 0;
   box-sizing:border-box;
 }
-  max-width: 840px;
+body{
+  font-size: 70%;
+}
+main {  
+  max-width: 84rem;
 }
 main img {
-  width: 150px;
+  width: 15rem;
   height: auto;
   float: right;
 }
@@ -22,6 +26,13 @@ aside {
   background-color: rgb(39, 9, 190);
   color: rgba(168, 154, 154, 0.96);
   text-align: center;
+}
+aside h2 {
+  position: relative;
+  top: 50px; 
+  left: 150px;
+
+
 }
 aside img {
   width: 200px;

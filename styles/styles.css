@@ -5,7 +5,7 @@
   box-sizing:border-box;
 }
 body{
-  font-size: 70%;
+  font-size: 100%;
 }
 main {  
   max-width: 84rem;
@@ -31,8 +31,6 @@ aside h2 {
   position: relative;
   top: 50px; 
   left: 150px;
-
-
 }
 aside img {
   width: 200px;

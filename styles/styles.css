@@ -1,8 +1,6 @@
-header{
+header, footer, .grid {
+  margin: 0 auto;
   max-width: 840px;
-  margin: 0;
-  padding: 1em;
-  box-sizing:border-box;
 }
 nav {
   display: flex;
@@ -11,16 +9,10 @@ nav {
   padding: 1em 0;
 margin: 0;
 align-items: center;}
-
-nav ul {
-  display: flex;
-  justify-content: space-evenly; /* Evenly spaces the nav links */
-  width: 100%; /* Ensures the nav links span the full width of the nav */
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.grid {
+    display: grid;
+    align-items: center;
 }
-
 body{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 100%;
@@ -63,9 +55,13 @@ aside img {
   left: 150px;
 }
 }
+h2 {
+  position: absolute;
+  top: 47px;
+  left: 150px;
+}
 footer {
   margin-top: 15px;
   border-top: 1px solid #000;
-  text-align: center;
-}
-/* Class Selectors */
+  text-align: center;}
+/* Class Selectors

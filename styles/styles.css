@@ -18,8 +18,9 @@ nav {
   align-items: center;
 }
 
-/* Main content container */
+/* Main container */
 main {
+  order: 2;
   max-width: 840px;
   margin: 0 auto;
 }
@@ -33,9 +34,9 @@ main img {
 p {
   padding: 0;
 }
-
 /* Aside styles */
-aside {
+aside img{
+  order: 1;
   width: 20rem;
   margin: 1rem;
   border: 1px solid rgba(0, 0, 0, 0.2);

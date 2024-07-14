@@ -1,49 +1,100 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* General Styles */
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  line-height: 1.6;
 }
-h1 {
-    font-size: 2.5em;
-    color: #2c3e50; /* Dark blue color */
-  }
-  
-  h2 {
-    font-size: 2em;
-    color: #e74c3c; /* Red color */
-  }
-  
-  h3 {
-    font-size: 1.75em;
-    color: #3498db; /* Blue color */
-  }
-  
-  h4 {
-    font-size: 1.5em;
-    color: #1abc9c; /* Green color */
-  }
-  
-  h5 {
-    font-size: 1.25em;
-    color: #9b59b6; /* Purple color */
-  }
-  
-  h6 {
-    font-size: 1em;
-    color: #f39c12; /* Orange color */
-  }
-  
-  p {
-    font-size: 1em;
-    color: #34495e; 
-    line-height: 1.6;
-    margin: 0 0 1em 0;
-  }
-  .hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  
+
+header, footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
+
+header img {
+  width: 50px;
+  vertical-align: middle;
+}
+
+header h1 {
+  display: inline;
+  margin-left: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: url('../images/hero.jpg') no-repeat center center/cover;
+  padding: 2em 0;
+  color: #fff;
+}
+
+.hero article {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1em;
+  max-width: 300px;
+  text-align: center;
+}
+
+.hero img {
+  width: 100px;
+}
+
+#history, #adventures {
+  padding: 2em 5%;
+}
+
+#history p {
+  margin-bottom: 1em;
+}
+
+#adventures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#adventures figure {
+  flex: 1 1 200px;
+  margin: 1em;
+  text-align: center;
+}
+
+#adventures img {
+  width: 100%;
+  height: auto;
+}
+
+footer nav a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+footer nav img {
+  width: 20px;
+  height: 20px;
+}
+
+footer p {
+  margin-top: 1em;
+  font-size: 0.9em;
+}

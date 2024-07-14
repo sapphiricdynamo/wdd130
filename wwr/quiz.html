@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <header>
+        <h1>Test Your Knowledge: HTML and CSS Quiz</h1>
+    </header>
+    <main>
+        <form action="submit-quiz.php" method="post">
+            <!-- Question 1 -->
+            <fieldset>
+                <legend>Fill in the Blank Question</legend>
+                <div class="question">
+                    <label for="q1">1. What does HTML stand for?</label>
+                    <input type="text" id="q1" name="q1" required>
+                </div>
+
+                <!-- Question 2 -->
+                <fieldset>
+                    <legend>Short Answer Question</legend>
+                    <div class="question">
+                        <label for="q2">2. Explain the purpose of HTML?</label>
+                        <textarea id="q2" name="q2" rows="4" cols="50" required></textarea>
+                    </div>
+                </fieldset>
+
+                <!-- Question 3 -->
+                <fieldset>
+                    <legend>Dropdown Question</legend>
+                    <div class="question">
+                        <label for="q3">3. Choose the correct option:</label>
+                        <select id="q3" name="q3" required>
+                            <option value="" selected disabled>Choose One ...</option>
+                            <option value="a">Option A</option>
+                            <option value="b">Option B</option>
+                            <option value="c">Option C</option>
+                        </select>
+                    </div>
+                </fieldset>
+
+                <!-- Question 4 -->
+                <fieldset>
+                    <legend>Integer Answer Question</legend>
+                    <div class="question">
+                        <label for="q4">4. Enter a number:</label>
+                        <input type="number" id="q4" name="q4" required>
+                    </div>
+                </fieldset>
+
+                <!-- Submit Button -->
+                <div class="submit-button">
+                    <button type="submit">Submit Quiz</button>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
